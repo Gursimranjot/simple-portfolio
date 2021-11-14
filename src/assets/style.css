@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: var(--backgroundColor);
+    -webkit-font-smoothing: antialiased
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+:root {
+    --primaryColor: #f2f2f2;
+    --secondaryColor: #8f9ba8;
+    --backgroundColor: #08070b;
+    --commandColor: hsla(0, 0%, 100%, 0.05);
+    --hoverColor: #212024;
+    --gradientDegree: 135deg;
+    --yellow: #ffff80;
+    --pink: #ff80bf;
+    --purple: #9580ff;
+    --red: #ff9580;
+    --orange: #ffca80;
+    --green: #8aff80;
+    --cyan: #80ffea;
+    --navHeightDesktop: 60px;
+    --navHeightMobile: 110px;
+    --borderRadius: 8px;
+    --duration: 0.2s
+}
+
+main {
+    height: 100vh
+}
+
+.flex {
+    display: flex
+}
+
+.flex-center {
+    align-items: center
+}
+
+.content,
+.flex-center {
+    justify-content: center
+}
+
+.content {
+    height: 100%;
+    flex-direction: column;
+    padding: 0 2rem;
+    min-width: 375px;
+    margin: 0 auto
+}
+
+.heading {
+    font-size: 3rem;
+    padding: 4px;
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+
+.bio {
+    color: var(--secondaryColor);
+    padding: 4px
+}
+
+@media (max-width: 767px) {
+    .bio {
+        line-height: 1.5;
+    }
+}
+
+.bio a {
+    color: var(--primaryColor);
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.external-links li {
+    margin-right: 15px;
+}
+
+.external-links li:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    z-index: 1
+}
+
+.footer a:first-child {
+    margin: 0
+}
+
+.footer a {
+    color: var(--secondaryColor);
+    display: flex;
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: color var(--duration) ease-in-out
+}
+
+.footer a:hover {
+    color: var(--primaryColor)
+}
+
+.footer a span {
+    display: none
+}
+
+.footer a i {
+    color: var(--primaryColor);
+    opacity: 1;
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 24px
+}
+
+.footer a:hover i {
+    transition: opacity var(--duration) ease-in-out;
+    opacity: 1
+}
+
+@media (min-width: 800px) {
+    .content {
+        padding-right: 16rem
+    }
+    .footer a i {
+        opacity: 0;
+        font-size: 16px
+    }
+    .footer a span {
+        display: block
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        min-width: auto;
+        padding: 15px;
+    }
+    .bio {
+        margin-top: 15px;
+    }
+    .external-links {
+        flex-direction: column;
+    }
+    .external-links li {
+        margin-bottom: 15px;
+    }
+    .external-links li a {
+        padding: 10px 0;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,51 @@
+<template>
+  <main class="flex flex-center">
+    <section class="content flex">
+      <span class="heading">Gursimranjot Singh</span>
+      <span class="bio">
+        I like designing and building things. Right now I am working as
+        Front-end Developer
+        <a href="https://smartshore-ability.nl/" target="_blank">
+          @Smartshore-ability</a
+        >.
+      </span>
+      <div class="footer">
+        <ul class="external-links">
+          <li>
+            <a href="https://twitter.com/Gursimran1Singh" target="_blank"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/gursimranjot/" target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/gursimranjot" target="_blank">github</a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCDpjQUuAEn7cwsD3wYVX0TA"
+              target="_blank"
+              >youtube</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/gursimran2/"
+              target="_blank"
+              rel="noreferrer"
+              >linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://we.tl/t-9JhJVwZ7zB" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</template>
+
+<style scoped></style>
