@@ -1,7 +1,7 @@
 <template>
   <main class="flex flex-center">
     <section class="content flex">
-      <span class="heading">Gursimran Singh</span>
+      <span class="heading">Gursimranjot Singh</span>
       <span class="bio">
         I like designing and building things. Right now I am working as
         Front-end Developer
