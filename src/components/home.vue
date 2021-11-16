@@ -42,6 +42,11 @@
           <li>
             <a href="https://we.tl/t-9JhJVwZ7zB" target="_blank">Resume</a>
           </li>
+          <li>
+            <a href="https://www.behance.net/gursimran" target="_blank"
+              >Behance</a
+            >
+          </li>
         </ul>
       </div>
     </section>
