@@ -40,7 +40,11 @@
             >
           </li>
           <li>
-            <a href="https://we.tl/t-9JhJVwZ7zB" target="_blank">Resume</a>
+            <a
+              href="https://github.com/Gursimranjot/resume/blob/main/Gursimranjot_s_Resume.jpg"
+              target="_blank"
+              >Resume</a
+            >
           </li>
           <li>
             <a href="https://www.behance.net/gursimran" target="_blank"
