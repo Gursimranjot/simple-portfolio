@@ -3,11 +3,18 @@
     <section class="content flex">
       <span class="heading">Gursimranjot Singh</span>
       <span class="bio">
-        I like designing and building things. Right now I am working as
+        I like designing and building things. Right now I am working as SFCC
         Front-end Developer
+        <a href="https://www.infosys.com/" target="_blank">
+          @Infosys</a
+        >,
+        <span>Previously worked at</span>
         <a href="https://smartshore-ability.nl/" target="_blank">
-          @Smartshore-ability</a
-        >.
+          Smartshore ability</a
+        >,
+        <a href="http://new.pragyaware.com/" target="_blank">
+          Pragyware Informatics Pvt Ltd</a
+        >,
       </span>
       <div class="footer">
         <ul class="external-links">
